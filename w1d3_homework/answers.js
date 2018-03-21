@@ -8,15 +8,15 @@ for(let num = 0; num <= 200; num=num+2) {
 	console.log(num)
 }
 
-// EXCITED KITTEN
-// for(let i = 0; i < 20; i++) {
-// 	if ( i % 2 !== 0);
-// 	console.log(`${i}Love me, pet me, HHHSSSSSSS!`)
-// 	if ( i % 2 === 0);
-// 	console.log(`${i} The catnip made me do it`)
-// }
+EXCITED KITTEN
+for(let i = 0; i < 20; i++) {
+	if ( i % 2 !== 0);
+	console.log(`${i}Love me, pet me, HHHSSSSSSS!`)
+	if ( i % 2 === 0);
+	console.log(`${i} The catnip made me do it`)
+}
 
-// will come back to this
+will come back to this
 
 FIZZ BUZZ
 for(let i = 1; i <= 50; i++) {
@@ -48,5 +48,24 @@ console.log(matt);
 
 kristyn[2]="Brooklyn";
 console.log(kristyn);
+
+YELL AT THE NINJA TURTLES
+
+var ninjaTurtles=["Donatello", "Leonardo", "Raphael", "Michealangelo"];
+
+for(let i = 0; i <= ninjaTurtles.length; i++) {
+  console.log(ninjaTurtles[i].toUpperCase());
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
