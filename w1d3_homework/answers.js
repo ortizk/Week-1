@@ -9,11 +9,22 @@ for(let num = 0; num <= 200; num=num+2) {
 }
 
 EXCITED KITTEN
+var catMessage = ["the catnip made me do it", "Human, why are you taking a picture of me", "why does the red dot get away"]
+
+
 for(let i = 0; i < 20; i++) {
 	if ( i % 2 !== 0);
 	console.log(`${i}Love me, pet me, HHHSSSSSSS!`)
-	if ( i % 2 === 0);
-	console.log(`${i} The catnip made me do it`)
+	return (Math.random() * Math.floor(max)
+}
+
+
+
+for(let i = 0; i < 20; i++) {
+	if ( i % 2 === 0) {
+	var randomMessageIndex = (Math.floor(Math.random() * 3));
+	console.log(i, catMessage[randomMessageIndex])
+}
 }
 
 will come back to this
@@ -125,7 +136,16 @@ console.log("Thom has " + thomsCloset[1].length + " pants")
 console.log(thomsCloset[2])
 console.log("Thom has " + thomsCloset[2].length + " accessories")
 
+MULTIPLES OF 3 AND 5
 
+var sum = 0 ;
+
+for(let i = 1; i < 1000; i++) {
+  if ( i % 3 === 0 || i % 5 === 0) {
+    sum += i;
+  }
+}
+ console.log(sum);
 
 
 
